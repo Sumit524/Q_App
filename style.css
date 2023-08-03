@@ -1,0 +1,135 @@
+
+
+body {
+	background-size: cover;
+	background-image: url(Quiz_2.png);
+    margin: 0;
+    padding: 0;
+    background-position: center center; 
+}
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.yellow-text {
+    color: yellow;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2.5rem; /* Adjust the font size to a reasonable value */
+     height: 40vh;
+   /*  Make sure the text takes up the full height of the screen */
+    display: flex; /* Use flexbox to center the text vertically */
+    align-items: center; /* Center the text vertically */
+    /* margin-bottom: 5px; */
+  }
+  #box h3.result-message {
+    font-size: 26px; /* Adjust the font size as needed */
+    color: #1423ff;
+margin-top: -94px;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold;
+  }
+
+  .corrnum{
+    color: rgb(84, 73, 235);
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2.0rem; /* Adjust the font size to a reasonable value */
+     height: 65vh;
+   /*  Make sure the text takes up the full height of the screen */
+    display: flex; /* Use flexbox to center the text vertically */
+    align-items: center; /* Center the text vertically */
+  }
+
+#box{
+   
+    width: 45vw;
+    background-color: darksalmon;
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 300px;
+    margin-left: 50px;
+
+  
+
+}
+
+#box h3{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 0;
+    
+}
+
+#box btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.row{
+    width: 100%;
+    margin: -0.39rem;
+    margin-left: 0;
+    font-size: 1.0rem;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+
+.btn{
+    border-radius: 9px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+   border: 3.5px solid rgb(172, 50, 233);
+    
+    border-radius: 9px;
+    background-color: rgb(52, 231, 195);
+    font-weight: bold;
+	box-shadow: 0 0 20px 15px rgb(211, 206, 206);
+    
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: fixed;
+    justify-content: center;
+    margin-top: 35px;
+    font-family:cursive;
+    
+} 
+
+.btn:hover{
+    transform: scale(1.05);
+    /* background-color: rgb(217, 0, 255); */
+    color:rgb(237, 227, 227) ;
+background:rgb(238, 209, 41);
+color: rgb(9, 9, 9);
+ 
+
+
+}
+
